@@ -1,0 +1,40 @@
+h1{
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+}
+h2{
+    font-size: 40px;
+} 
+a{
+    font-size: 15px;
+}
+.head1{
+    color: green;
+}
+.p1{
+    color: red;
+
+}
+.head2{
+    color: violet;
+}
+
+.head3{
+    color: blue;
+
+}
+
+.head4{
+    color: violet;
+}
+.border{
+    border: double ;
+    font-size: 15px;
+}
+ h2.h3{
+    font-size:15px;
+ }
+
+ 

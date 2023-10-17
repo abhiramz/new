@@ -1,0 +1,20 @@
+.head{
+    background-image:url('../images/coffe1.jfif');
+    background-size:cover ;
+    color: antiquewhite;
+}
+.center img{
+    border-radius: 50%;
+}
+.center{
+    text-align: center;
+}
+
+.left{
+    text-align: center;
+ background-color:rgb(184, 149, 98);
+ margin-right: none;
+}
+.right{
+    margin-left: none;
+}

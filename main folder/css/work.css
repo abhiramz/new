@@ -1,0 +1,27 @@
+
+img{
+    width: 100%;
+    
+}
+.topview{
+    text-align: center;
+    background-image:url('../image/work1/OIP1.jfif');
+   background-size: "100% 100%";
+    color: aliceblue;
+    background-repeat: no-repeat;
+
+}
+.product1,.product2,.product3,.product4{
+    display: inline-block;
+    width: 10%;
+    text-align: center;
+    color: antiquewhite;
+    border-radius: 50%;
+    
+    
+
+    text-align: center;
+    border: solid;
+    color: aliceblue;
+    
+}

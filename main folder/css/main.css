@@ -1,0 +1,30 @@
+h1{
+    font-size: 50px;
+    color: rgb(127, 36, 187);
+
+}
+p{
+    font-size: 20px;
+    color: aqua;
+}
+h2{
+    font-size: 20px;
+    color: aquamarine;
+}
+.head1{
+    font-size: 100px;
+    color:blueviolet
+
+}
+.head2{
+    font-size: 80px;
+    color: brown;
+}
+.head3{
+    font-size: 50;
+    color: aqua;
+}
+.head5{
+    font-size: 100;
+    color: rgb(233, 229, 13);
+}

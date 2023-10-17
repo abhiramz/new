@@ -1,0 +1,42 @@
+.main1{
+    background-image: url('images/veg1.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 200px;
+}
+.tag1{
+    text-align: center;
+    border-radius: 20%;
+    margin-top: 5%;
+}
+.bg1{
+    background-image: url('images/fruits.jpg');
+    background-size: cover;
+    padding: 100px;
+   
+}
+.bg2{
+    background-image: url('images/veg2.jpg');
+    padding: 100px;
+    background-size: cover;
+    
+}
+.bg3 {
+    background-image: url('images/veg2.jpg');
+    padding: 100px;
+    background-size: cover;
+   
+}
+.bg4{
+    background-image: url('images/JUICE.jpeg');
+    padding: 100px;
+    background-size: cover;
+}
+.bg5{
+    background-image: url('images/DRIED.jpeg');
+    padding: 100px;
+    background-size: cover;
+}
+.s1{
+    color: aqua;
+}

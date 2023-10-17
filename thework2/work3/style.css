@@ -1,0 +1,33 @@
+.head1{
+    background-image: url('../work3/image/img1.webp');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+}
+.main1{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    color: rgb(255, 255, 255);
+   
+}
+.main2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: black;
+}
+img{
+    width: 100%;
+}
+.back{
+    background-color: rgba(199, 144, 61,0.7);
+    padding: 98px;
+}
+.main3{
+    background-image: url('image/img2.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.buto{
+   
+   background-color: rgba(199, 144, 61,0.7);
+}

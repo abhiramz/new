@@ -1,0 +1,23 @@
+img{ width: 100%;}
+.head{
+    background-image: url(../image/R.jfif);
+   background-size: "100% 100%";
+   text-align: center;
+   background-repeat: no-repeat;
+  
+}
+.center1 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 60%;
+}
+.center img{
+    width: 50px;
+    height: 50px;
+    border-radius: 60%;
+}
+.margin{
+    text-align: start;
+    margin-left: 70px;
+    margin-top: 160px;   
+}
