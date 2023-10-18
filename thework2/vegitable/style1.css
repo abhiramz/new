@@ -10,33 +10,53 @@
     margin-top: 5%;
 }
 .bg1{
-    background-image: url('images/fruits.jpg');
+    background-image: url('images/1.webp');
     background-size: cover;
     padding: 100px;
+    margin-bottom: 4%;
    
 }
 .bg2{
-    background-image: url('images/veg2.jpg');
+    background-image: url('images/2.webp');
     padding: 100px;
     background-size: cover;
     
 }
 .bg3 {
-    background-image: url('images/veg2.jpg');
+    background-image: url('images/category.jpg.webp');
     padding: 100px;
     background-size: cover;
+    height: 100%;
+    text-align: center;
+    
    
 }
 .bg4{
-    background-image: url('images/JUICE.jpeg');
+    background-image: url('images/3.webp');
     padding: 100px;
     background-size: cover;
+    margin-bottom: 4%;
 }
 .bg5{
-    background-image: url('images/DRIED.jpeg');
+    background-image: url('images/4.webp');
     padding: 100px;
     background-size: cover;
 }
 .s1{
     color: aqua;
+}
+.pro{
+    padding-top: 5%;
+    text-align: center;
+
+   
+}
+.bg6{
+    background-image: url('images/bg_3.jpg.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 90px 10px 300px 10px;
+
+    
 }
