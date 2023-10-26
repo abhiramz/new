@@ -57,14 +57,31 @@
 }
 .pro1{
     border: solid;
+    margin-bottom: 5%;
+    padding: 10px 20px 10px 20 px;
+    overflow: hidden;
+    
 }
+.pro1 img{
+    transition: 0.2s;
+}
+.pro1:hover img{
+    transform: scale(1.1);
+}
+
+.sec img{
+    height: 200px;
+    width: 200px;
+    padding: 10px 20px 10px 10px;
+}
+
+
 .bg6{
     background-image: url('images/bg_3.jpg.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     
-    text-align: center;
    
 
     
@@ -78,4 +95,173 @@
 
 .cara{
     text-align: top;
+   
 }
+.bg7{
+    padding-top: 20%;
+    padding-bottom: 20%;
+    text-align: left;
+}
+.rev{
+    text-align: center;
+}
+
+
+ #countdown li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+  }
+  
+  #countdown li span {
+    display: block;
+    font-size: 4.5rem;
+  }
+
+  @media all and (max-width: 768px) {
+   
+    li {
+      font-size: calc(1.125rem * var(--smaller));
+    }
+    
+    li span {
+      font-size: calc(3.375rem * var(--smaller));
+    }
+  }
+  
+
+  
+  
+  .gtco-testimonials {
+    position: relative;
+    margin-top: 30px;
+  
+    h2 {
+      font-size: 30px;
+      text-align: center;
+      color: #333333;
+      margin-bottom: 50px;
+    }
+  
+    .owl-stage-outer {
+      padding: 30px 0;
+    }
+  
+    .owl-nav {
+      display: none;
+    }
+  
+    .owl-dots {
+      text-align: center;
+  
+      span {
+        position: relative;
+        height: 10px;
+        width: 10px;
+        border-radius: 50%;
+        display: block;
+        background: #fff;
+        border: 2px solid #01b0f8;
+        margin: 0 5px;
+      }
+  
+      .active {
+        box-shadow: none;
+  
+        span {
+          background: #01b0f8;
+          box-shadow: none;
+          height: 12px;
+          width: 12px;
+          margin-bottom: -1px;
+        }
+      }
+    }
+  
+    .card {
+      background: #fff;
+      box-shadow: 0 8px 30px -7px #c9dff0;
+      margin: 0 20px;
+      padding: 0 10px;
+      
+      border: 0;
+  
+      .card-img-top{
+        max-width: 100px;
+        border-radius: 50%;
+        margin: 15px auto 0;
+        box-shadow: 0 8px 20px -4px #95abbb;
+        width: 100px;
+        height: 100px;
+      }
+  
+      .h5 {
+        color: #01b0f8;
+        font-size: 21px;
+        line-height: 1.3;
+  
+        span {
+          font-size: 18px;
+          color: #666666;
+        }
+      }
+  
+      .p {
+        font-size: 18px;
+        color: #555;
+        padding-bottom: 15px;
+      }
+    }
+  
+    .active {
+      opacity: 0.5;
+      transition: all 0.3s;
+    }
+  
+    .center {
+      opacity: 1;
+  
+      .h5 {
+        font-size: 24px;
+  
+        span {
+          font-size: 20px;
+        }
+      }
+  
+      .card-img-top {
+        max-width: 100%;
+        height: 120px;
+        width: 120px;
+      }
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .gtco-testimonials {
+      margin-top: 20px;
+    }
+  }
+  
+  .owl-carousel {
+    .owl-nav button {
+      &.owl-next, &.owl-prev {
+        outline: 0;
+      }
+    }
+  
+    button.owl-dot {
+      outline: 0;
+    }
+  }
+  .carousel-caption{
+    top: 40%;
+    
+  }
+  .sub{
+    text-align: center;
+    background-color: #ececc8;
+    padding: 50px;
+  }
