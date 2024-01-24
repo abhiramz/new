@@ -1,0 +1,52 @@
+
+
+let arr = [1,2,3];
+
+//function to calculate sum of elements of a numerical array
+function arrsum(arr) {
+    let sum = 0;
+    for (let i = 0;i < arr.lenght;i++){
+        sum = sum + arr[i];
+
+    }
+    console.log("sum : ",sum);
+
+}
+
+arrsum(arr);
+
+//function to find the maximum value of a numerical array
+function arrMax(arr) {
+        let maxValue = arr[0];
+for(let i = 0; i < arr.length; i++ ) {
+    if(arr[i] > maxValue) {
+        maxValue = arr[i];
+
+    }
+}
+return maxValue;
+    
+}
+
+let maxValue = arrMax(arr);
+console.log("maxValue : ",maxValue);
+
+{
+//neww
+let arr = [1,2,3,4,-3];
+console.log(arr);
+
+//function to calulate average  of an array
+
+
+function arrayAverage(array) {
+    let sum = 0;
+    for(let i = 0; i < array.length; i++);{
+    sum = sum + array[i];
+    }
+    console.log["sum : ",sum];
+    console.log("Average : ",sum/array.length)
+
+}
+arrayAverage(array);
+}
