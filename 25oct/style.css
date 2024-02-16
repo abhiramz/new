@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+.container{
+    background-color: blanchedalmond;
+    border: 1px dotted blue;
+}
+.box{
+    background-color: rgb(190, 207, 37);
+    border: 2px solid black;
+    width: 50%;
+}
+.sticky{
+    position: sticky;
+    top: 0px;
+    background-color: aqua;
+    border: 1px solid black;
+}

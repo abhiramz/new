@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    border: 5px solid yellowgreen;
+    padding: 5px;
+    margin: 15px 50px 0px 50px;
+}
+
+.nav-container{
+    background-color: #0f1111;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-container{
+    height: 60px;
+}
+
+.list{
+    display: inline;
+    color: white;
+    margin: 0px 100px 0px 100px;
+}
+
+.logo{
+    display: inline;
+    font-size: 25px;
+    color: orange;
+    margin-right: 72px;
+}
+
+input{
+    margin-right: 4px;
+    margin-left: 180px;
+}
+
+button{
+    background-color:#f08804;
+}
+
