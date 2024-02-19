@@ -154,10 +154,72 @@ console.log("result30 :",result30);//false
 
 // //2
 // // | - indicates or case 0 | 1 means either 0 or 1 can occur
-// const redexpForDate1 = /^([012]?\d|3[01])-([0]\d|[1][012])
+ const regexpForDate1 = /^([012]?\d|3[01])-([0]\d|[1][012]) - (\d{4})$/i;//in the group -if first character is 0 or 1 or 2 then the second character can be any digits (0-9) or if the character is '3' then the second character should be '0' or '1'
+ //in the second group if the first character is '0' then second character can be any digits(0-9) or if first character is '1' then the second character should be 0  
 
 
 
+
+ function checkResult(value) {
+    const result = regexpForDate1.test(value);
+
+    if (result) {
+        return '';
+
+    } else {
+        return 'invalid string';
+    }
+ }
+
+ const value = "16-12-2023";
+ let validation_result = checkResult(value);
+ console.log("validation_result : ", validation_result);
+
+ function onChange(arg) {
+    let validation_result = checkResult(arg.value);
+    let label = document.getElementById('error');
+    if (validation_result) {
+        label.innerHTML = validation_result;
+
+    } else {
+        label.innerHTML = validation_result;
+    }
+ }
+
+//'^' and '$' can only be used in the start and end cannot be used in between  strings to match ,so we use loookaheads for giving starting and ending in between strings
+//(?=) - possitive lookahead, A(?=B) -> Matches : A only if A is followed by B
+//(?!) - Negative Lookahead , A(?!B) -> Matches : A only if A is not followed by B
+//(?<=) - positive lookbehind , (?<=B)A -> Matches : A only if A is proceeded  by B
+//(?<!) - Negative lookbehind , (?<!B)A -> Matches : A only if A is proceeded  by B
+
+
+
+
+
+
+
+{
+    let datestring = '19-12-2023';
+
+    let regex = /-\d+-/; //it will match also '12'
+    const result = datestring.match(regex);
+
+    console.log("result : ",result);
+
+    //inorder to match exctly '12' in datastring we can use lookaheads
+    let regex1 = /(?<=-)\d+(?=-)/; 
+    //this will exactly match '12'in string
+    const result1 = datestring.match(regex1);
+    console.log("result : ",result1);
+    
+    //example for negative lookahead and negatibe lookbehind
+    let phone = "(91)1234567890";
+    
+    //to match numbers outside of (91)
+    const phoneRegex = /(?!\()\d+(?!\))/;
+    const phoneRegexResult = phone.match(phoneRegex);
+    console.log("phoneRegexResult : ",phoneRegexResult) 
+}
 
 
 
